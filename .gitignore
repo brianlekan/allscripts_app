@@ -24,3 +24,4 @@ Gemfile.lock
 db_dev.rb
 log4net.config.xml
 web.config
+*_mm_cache.bin
