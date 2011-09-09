@@ -51,22 +51,27 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="developwithpassion.specifications">
-      <HintPath>..\..\packages\developwithpassion.specifications.rhinomocks\developwithpassion.specifications.dll</HintPath>
+    <Reference Include="developwithpassion.specifications, Version=0.4.24.2, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\packages\developwithpassion.specifications.rhinomocks.0.4.24.2\lib\developwithpassion.specifications.dll</HintPath>
     </Reference>
-    <Reference Include="developwithpassion.specifications.rhinomocks">
-      <HintPath>..\..\packages\developwithpassion.specifications.rhinomocks\developwithpassion.specifications.rhinomocks.dll</HintPath>
+    <Reference Include="developwithpassion.specifications.rhinomocks, Version=0.4.24.2, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\packages\developwithpassion.specifications.rhinomocks.0.4.24.2\lib\developwithpassion.specifications.rhinomocks.dll</HintPath>
     </Reference>
-    <Reference Include="Machine.Fakes">
-      <HintPath>..\..\packages\Machine.Fakes.0.2.3.1\lib\Machine.Fakes.dll</HintPath>
+    <Reference Include="Machine.Fakes, Version=0.2.6.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\packages\Machine.Fakes.0.2.6\lib\Machine.Fakes.dll</HintPath>
     </Reference>
-    <Reference Include="Machine.Fakes.Adapters.RhinoMocks">
-      <HintPath>..\..\packages\Machine.Fakes.RhinoMocks.0.2.3.1\lib\Machine.Fakes.Adapters.RhinoMocks.dll</HintPath>
+    <Reference Include="Machine.Fakes.Adapters.RhinoMocks, Version=0.2.6.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\packages\Machine.Fakes.RhinoMocks.0.2.6\lib\Machine.Fakes.Adapters.RhinoMocks.dll</HintPath>
     </Reference>
-    <Reference Include="Machine.Specifications">
-      <HintPath>..\..\packages\Machine.Specifications.0.4.12.0\lib\Machine.Specifications.dll</HintPath>
+    <Reference Include="Machine.Specifications, Version=0.4.24.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\packages\Machine.Specifications.0.4.24.0\lib\Machine.Specifications.dll</HintPath>
     </Reference>
-    <Reference Include="Rhino.Mocks">
+    <Reference Include="Rhino.Mocks, Version=3.6.0.0, Culture=neutral, PublicKeyToken=0b3305902db7183f, processorArchitecture=MSIL">
       <HintPath>..\..\packages\RhinoMocks.3.6\lib\Rhino.Mocks.dll</HintPath>
     </Reference>
     <Reference Include="System" />
