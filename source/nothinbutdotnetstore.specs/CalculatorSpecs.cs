@@ -18,6 +18,7 @@ namespace nothinbutdotnetstore.specs
             Establish c = () =>
             {
                 connection = depends.on<IDbConnection>();
+                connection.Open();
             };
 
             Because b = () =>
